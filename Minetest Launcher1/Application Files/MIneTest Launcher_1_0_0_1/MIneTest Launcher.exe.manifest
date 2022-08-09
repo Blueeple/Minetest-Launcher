@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MIneTest Launcher.exe" version="1.0.0.1" publicKeyToken="24cb71ba35b4bdc8" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MIneTest Launcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MIneTest Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MIneTest Launcher.exe" size="458224">
+      <assemblyIdentity name="MIneTest Launcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>F03SmD+eZQr/Z2iQvFhHLLLcQLL9t4YFbhfWYROEC0Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MIneTest Launcher.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-CNTVARM\New user" issuerKeyHash="07fd65981b8083f00e39e9f8e215f02012943700" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>uh3mNgytoysVGvNl5VcV1kbhbSMib46XtvKlsJxqMsc=</DigestValue></Reference></SignedInfo><SignatureValue>KTuOYTf74FMw/UF8elo3oBcLerjU/9TvkRRjo8zLAme8fX84sxkgPAeBNBe4axIpVKik4a0Y7hSZ51sZbPUtKSo7T9LiMHpRIzRP5B6jWn8x7mlsePZCWJbC1nESpNpWMbq7whcvt8nw9gnMGHggRl1Ycrg0cy9aZZLeyw2jMZI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5hh3vYQL1BU6YJe0B6KuFuNchIoCo7LPP8QzCHY+dHOu1Re1sqwqPQNMXMfS5jEGF7XgQEMKA4fUnJ4BBRB9ltDqHIZ3Y2jRv4On3D/0HPgilifoD4IXXO0+500UxBriQmEiwCkkib+YW6+3rJwMeCb1XlUJF0VOu7IkpnWixz0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c7326a9cb0a5f2b6978e6f22236de146d61557e565f31a152ba3ad0c36e61dba" Description="" Url=""><as:assemblyIdentity name="MIneTest Launcher.exe" version="1.0.0.1" publicKeyToken="24cb71ba35b4bdc8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-CNTVARM\New user</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0KtQjSYtFn0CgDRN3EDHt41e2+Vsit9iSi3UJuK/uH8=</DigestValue></Reference></SignedInfo><SignatureValue>R75rQ32b6rV1ozFdTewbuoL6NHp33GAXVN5RchvBQf7nhYNdm/WmAuCfMOgSDME0yjhR6jFWCPnxi2V6hHa0ufrSuXwe5vCGqzDgIeVo9AEjN3jt7rBQWLhUZPB+gBgxyxgkSI9AaYQgnrTyxKs/unKp9jT25AEZQF6uPkyKBiM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5hh3vYQL1BU6YJe0B6KuFuNchIoCo7LPP8QzCHY+dHOu1Re1sqwqPQNMXMfS5jEGF7XgQEMKA4fUnJ4BBRB9ltDqHIZ3Y2jRv4On3D/0HPgilifoD4IXXO0+500UxBriQmEiwCkkib+YW6+3rJwMeCb1XlUJF0VOu7IkpnWixz0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQV8MPomiT77hCS0E3ABqZjDANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEMATgBUAFYAQQBSAE0AXABOAGUAdwAgAHUAcwBlAHIwHhcNMjIwODA5MjM0MDAyWhcNMjMwODEwMDU0MDAyWjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEMATgBUAFYAQQBSAE0AXABOAGUAdwAgAHUAcwBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOYYd72EC9QVOmCXtAeirhbjXISKAqOyzz/EMwh2PnRzrtUXtbKsKj0DTFzH0uYxBhe14EBDCgOH1JyeAQUQfZbQ6hyGd2No0b+Dp9w/9Bz4IpYn6A+CF1ztPudNFMQa4kJhIsApJIm/mFuvt6ycDHgm9V5VCRdFTruyJKZ1osc9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAUswXER6U/8sSAjRwin3AhviF8a3WZGNoztZwAy6z15ivtTPtpDPxAB8SZtZIDnsWXa3lBcAmzeRnzLoHoCP6mfcNVewJWJtfNZLEGMCoNGYGYiPxoh7A2uBgM8+w9/Bg0jHgUya3FqdEC1J/cWJLqgN9i+zsJMv1lPQo9u95UuQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
